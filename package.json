@@ -1,0 +1,46 @@
+{
+  "name": "nirvijay-co-website",
+  "version": "1.0.0",
+  "description": "Professional ACCA services website for Nirvijay & Co by Arya Podar",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build step required'",
+    "start": "vercel dev",
+    "deploy": "vercel --prod",
+    "preview": "vercel"
+  },
+  "keywords": [
+    "ACCA",
+    "accounting",
+    "financial-services",
+    "bookkeeping",
+    "CFO",
+    "business-advisory",
+    "tax",
+    "Nepal",
+    "UK"
+  ],
+  "author": {
+    "name": "Arya Podar",
+    "email": "nirvijayco@gmail.com",
+    "company": "Nirvijay & Co"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/nirvijay-website.git"
+  },
+  "dependencies": {
+    "@vercel/kv": "^1.0.1"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0",
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": false,
+  "homepage": "https://nirvijayco.vercel.app"
+}
